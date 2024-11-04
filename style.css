@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div#container{
+    width: 690px;
+    height: 480px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+/**/
+.img-perfum{
+    width: 300px;
+    height: 480px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.perfume {
+    font-family: Montserrat;
+    font-weight: 500;
+    text-align: left;
+    margin: 20px 20px 20px 30px;
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+.perfum-name{
+    font-family: Fraunces;
+    font-weight: 700;
+    text-align: left;
+    margin: 10px 20px 0px 30px;
+}
+div#content p{
+    font-family: Montserrat;
+    font-weight: 500;
+    text-align: left;
+    margin: 20px 20px 0px 30px;
+    color: hsl(228, 12%, 48%);
+}
+.new-price{
+    font-family: Fraunces;
+    text-align: left;
+    margin: 20px 20px 15px 30px;
+    font-size: 40px;
+    color: hsl(158, 36%, 37%)
+}
+.old-price{
+    display: block;
+    float: right;
+    margin: -50px 100px 30px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+.button {
+    text-indent: 17px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    width: 298px;
+    height: 56px;
+    margin: 20px 0px -50px 30px;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 8px;
+    border-style: none;
+    transition: 0.3s;
+}
+.button:hover{
+    background-color: #1A4031;
+    cursor: pointer;
+}
+.cart {
+    display: block;
+    margin: -19px 0px 0px 115px; /* Ajuste a margem conforme necessário */
+    width: 15px; /* Ajuste o tamanho conforme necessário */
+}
+
+/*.cart{
+    display: block;
+    float: center;
+    margin: -19px 0px 0px 115px;
+    width: 15px;
+}*/
